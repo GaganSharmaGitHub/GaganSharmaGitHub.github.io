@@ -3,12 +3,17 @@
   import Skils from "$lib/components/Skils.svelte";
   import Wave1 from "$lib/components/Wave1.svelte";
   import { onMount } from "svelte";
-  onMount(()=> initiateCanvas(canvas))
+  let hideContent = true;
+
+  onMount(() => {
+    initiateCanvas(canvas);
+    hideContent = false;
+  });
   let canvas: HTMLCanvasElement;
   const message = "H#e#y,<endline>I# #a#m# #G#a#g#a#n.";
 </script>
 
-<main>
+<main class:hidden={hideContent} >
   <section class="relative">
     <div class="w-screen h-screen overflow-hidden">
       <canvas bind:this={canvas} />
@@ -16,13 +21,13 @@
     <div
       class="text-white z-20 absolute top-0 left-0 w-screen h-screen flex items-center"
     >
-      <h1 class="text-9xl text-left p-10">
+      <h1 class="text-9xl text-left p-10 cursor-default">
         {#each message.split("<endline>") as sentence}
           <p class="flex">
             {#each sentence.split("#") as letter}
               <div class="hover:text-orange-600 hover:animate-bounce">
                 <div class="min-w-[30px]">
-                  {letter}
+                  {letter} 
                 </div>
               </div>
             {/each}
@@ -33,8 +38,8 @@
   </section>
   <section class="text-white ">
     <Wave1 />
-    <div class="bg-orange-600 w-full flex justify-center items-center pb-20">
-      <div class=" max-w-3xl">
+    <div class="bg-orange-600 w-full flex justify-center items-center pb-20 px-10 flex-wrap">
+      <div class=" max-w-3xl min-w-[500px]">
         <h2 class="text-5xl">About me:</h2>
         <p class="text-xl">
           Hey yo! I am a young developer currently working at Nykaa. I like to
@@ -62,3 +67,8 @@
     </div>
   </section>
 </main>
+<style>
+	h1::selection {
+    background-color: transparent;
+}
+</style>
