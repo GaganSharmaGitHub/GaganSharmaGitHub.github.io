@@ -4,10 +4,10 @@ publish(
  'build', // path to public directory
  {
   branch: 'gh-pages',
-  repo: 'https://github.com/el3um4s/memento-sveltekit-and-github-pages.git', // Update to point to your repository
+  repo: 'https://github.com/GaganSharmaGitHub/gagan.me', // Update to point to your repository
   user: {
-   name: 'Samuele de Tomasi', // update to use your name
-   email: 'samuele@stranianelli.com' // Update to use your email
+   name: 'Gagan Sharma', // update to use your name
+   email: 'gagan3103sharma2000@gmai.com' // Update to use your email
   },
   dotfiles: true
   },
