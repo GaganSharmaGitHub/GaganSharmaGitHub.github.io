@@ -1,0 +1,355 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3706,
+      "max": [
+        1.53708016872406,
+        3.5645511150360107,
+        2.0869507789611816
+      ],
+      "min": [
+        -9.443866729736328,
+        -13.382594108581543,
+        -1.0029728412628174
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 44472,
+      "componentType": 5126,
+      "count": 3706,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3706,
+      "max": [
+        0.9990896582603455,
+        0.9977253675460815
+      ],
+      "min": [
+        0.0009103953489102423,
+        0.0009193348232656717
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 8658,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 88944,
+      "componentType": 5126,
+      "count": 3424,
+      "max": [
+        17.535863876342773,
+        1.0,
+        31.945783615112305
+      ],
+      "min": [
+        -29.456523895263672,
+        -78.46464538574219,
+        -31.615934371948242
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 130032,
+      "componentType": 5126,
+      "count": 3424,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 29648,
+      "componentType": 5126,
+      "count": 3424,
+      "max": [
+        0.9853186011314392,
+        0.9909771680831909
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 34632,
+      "componentType": 5125,
+      "count": 12288,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Reidicus (https://sketchfab.com/Reidicus)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/old-computer-3dca9491b7834c7b89fd4f9666fafa04",
+      "title": "Old Computer"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 83784,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 57040,
+      "byteOffset": 83784,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 171120,
+      "byteOffset": 140824,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 311944,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Accessories.002_baseColor.png"
+    },
+    {
+      "uri": "textures/Television.002_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Accessories.002",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Television.002",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.001_Accessories.002_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Sphere.001_Television.002_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.0,
+        -0.043587520718574746,
+        0.9990496039390564,
+        0.0,
+        1.0,
+        -1.0061396160665481e-16,
+        -2.2340787354891936e-32,
+        0.0,
+        1.0061396160665481e-16,
+        0.9990496039390564,
+        0.043587520718574746,
+        0.0,
+        -254.64154052734375,
+        4.317461490631204,
+        -452.6529541015625,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "084fdb3d367d4ae59e290174d1416225.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        18.86568260192871,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -3.0736098266968794e-06,
+        -18.865682601928462,
+        0.0,
+        0.0,
+        18.865682601928462,
+        -3.0736098266968794e-06,
+        0.0,
+        270.1789245605469,
+        -157.8602752685547,
+        -473.98468017578125,
+        1.0
+      ],
+      "name": "Cube.001"
+    },
+    {
+      "mesh": 0,
+      "name": "Cube.001_Accessories.002_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        4.898573875427246,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.898573875427241,
+        2.1412346472007095e-07,
+        0.0,
+        0.0,
+        -2.0732582559580603e-07,
+        4.74306201934814,
+        0.0,
+        42.43878173828125,
+        207.86573791503906,
+        -316.8919982910156,
+        1.0
+      ],
+      "name": "Sphere.001"
+    },
+    {
+      "mesh": 1,
+      "name": "Sphere.001_Television.002_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

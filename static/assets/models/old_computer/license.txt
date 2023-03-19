@@ -1,0 +1,11 @@
+Model Information:
+* title:	Old Computer
+* source:	https://sketchfab.com/3d-models/old-computer-3dca9491b7834c7b89fd4f9666fafa04
+* author:	Reidicus (https://sketchfab.com/Reidicus)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Old Computer" (https://sketchfab.com/3d-models/old-computer-3dca9491b7834c7b89fd4f9666fafa04) by Reidicus (https://sketchfab.com/Reidicus) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
