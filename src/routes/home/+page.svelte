@@ -3,7 +3,7 @@
   import Skils from "$lib/components/Skils.svelte";
   import Wave1 from "$lib/components/Wave1.svelte";
   import { onMount } from "svelte";
-
+  export let prerender = true;
   let canvas: HTMLCanvasElement;
   onMount(() => {
     initiateCanvas(canvas);
