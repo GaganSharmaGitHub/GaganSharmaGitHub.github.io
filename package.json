@@ -12,6 +12,7 @@
 		"@fontsource/fira-mono": "^4.5.10",
 		"@neoconfetti/svelte": "^1.0.0",
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.88",
 		"@sveltejs/adapter-static": "^1.0.0-next.50",
 		"@sveltejs/kit": "^1.5.0",
 		"@types/cookie": "^0.5.1",
@@ -28,6 +29,7 @@
 	"type": "module",
 	"dependencies": {
 		"animate.css": "^4.1.1",
+		"svelte-confetti-explosion": "^0.4.0",
 		"tailwindcss-animatecss": "^3.0.3",
 		"three": "^0.150.1"
 	}
